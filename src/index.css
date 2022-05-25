@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: montserrat, san-serif;
+
+
+}
+
+input,
+button {
+  border: 1px;
+  outline: none;
+
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #a0def9;
+  background-size: 100%;
+}
+
+button[type="button"] {
+  border: 1px;
+  outline: none;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #79ec9f;
+  background-size: 100%;
+  color: rgb(17, 18, 18);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c9dff5;
+
+
+
+}
+
+form {
+  align-items: center;
+  padding-left: 20px;
+  margin: 20px;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+form .form-inner input[type="submit"] {
+  display: inline-block;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #5fe0e2;
+  background-size: 100%;
+  background-position: 0%;
+  transition: 0.5s;
+  color: rgb(21, 20, 20);
+  font-weight: 800;
+  margin-top: 10px;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+button[type="submit"] {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #5fe0e2;
+  height: fit-content;
+}
+
+#bigreko-submit {
+  margin-top: 10px;
+
+
+}
+
+form .form-inner input[type="submit"]:hover {
+  background-color: rgb(9, 183, 241);
+
+}
+
+.box {
+  border: 1px solid #0000;
+  width: 243px;
+  position: relative;
+  overflow: hidden;
+  padding: 6px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+
+}
+
+.content {
+  color: #fff;
+  background-color: rgba(162, 250, 247);
+  position: absolute;
+  top: -auto;
+  left: 0%;
+  bottom: -100%;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  justify-content: center;
+
+
+
+}
+
+.content p {
+  border-top: 1px solid white;
+  background-color: rgb(8, 68, 107);
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box:hover .content {
+  bottom: 0;
+}
+
+
+.btnn {
+  color: rgb(21, 182, 231);
+}
+
+.contact-container {
+  background: #5fe0e2;
+bottom: 0px;
+height: max-content;
+bottom: 0;
+
+
+}
+.contact-container hr{
+  width: 100%;
+  color: green;
+  padding:2px;
+}
+.contact-form {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 14px;
+}
+
+.contact-box {
+  background: #5fe0e2;
+  display: flex;
+  margin-top: 50px;
+
+}
+
+.contact-left {
+  flex: 60%;
+  padding: 40px 60px;
+
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 118px;
+  background: #5fe0e2;
+  color: rgb(8, 8, 8);
+
+}
+
+.contact-right p {
+
+  margin-top: 20px;
+  margin-right: 20px;
+
+
+}
+
+.input-row {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+input {
+  width: 100%;
+  border: rgb(28, 27, 27);
+  margin: 10px;
+}
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+
+
+
+
+}
+
+.container .contactInfo .box {
+  position: relative;
+  display: flex;
+
+}
+
+
+.container .contactInfo .box .icon {
+
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left-width: 5px;
+  border-left-style: solid;
+  margin-left: 10px;
+  align-items: center;
+
+
+
+}
+
+.form-inner {
+  background-color: #ffffff;
+  width: 100%;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding: 30px;
+
+
+
+
+
+}
+
+input[type=text] input[type=email] input[type=password] {
+
+  width: 60%;
+  padding-right: 50px;
+}

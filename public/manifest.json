@@ -1,0 +1,25 @@
+{
+  "short_name": "Healthcare",
+  "name": "Healthcare System ",
+  "icons": [
+    {
+      "src": "fav.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "ccc.jpg",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "ccc.jpg",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#c9f0ec",
+  "background_color": "#c9f0ec"
+}
